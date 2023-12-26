@@ -1,0 +1,393 @@
+body {
+  background-color: rgb(45, 20, 68);
+
+  color: rgb(227, 223, 230);
+}
+
+/* element etrafinda bosluq yaratmaq ucun CSS-Margins -lerden istifade olunur*/
+
+/* elemente margin-top tetbiq etmek ucun*/
+
+p.ex1 {
+  margin-top: 15px;
+  border: 1px solid red;
+}
+
+p.ex2 {
+  margin-top: 5%;
+  border: 1px solid rgb(24, 24, 26);
+}
+
+/* elemente margin-bottom tetbiq etmek ucun*/
+
+p.ex3 {
+  margin-bottom: 15px;
+  border: 2px solid greenyellow;
+}
+
+p.ex4 {
+  margin-bottom: 10%;
+  border: 3px solid green;
+}
+
+/* elemente margin-left tetbiq etmek ucun*/
+
+p.ex5 {
+  margin-left: 15px;
+  border: 2px solid rebeccapurple;
+}
+
+p.ex6 {
+  margin-left: 5%;
+  border: 3px solid salmon;
+}
+
+/* elemente margin-right tetbiq etmek ucun*/
+
+p.ex7 {
+  margin-right: 20px;
+  border: 4px solid saddlebrown;
+}
+
+p.ex8 {
+  margin-right: 8%;
+  border: 6px solid seashell;
+}
+
+/* elemente margin tetbiq etmek ucun bu zaman elementin 4  terefinde bosluq yaranacaq*/
+
+p.ex9 {
+  margin: 15px;
+  border: 4px solid springgreen;
+}
+
+p.ex10 {
+  margin: 5%;
+  border: 3px solid goldenrod;
+}
+
+/*Listlərin əvvəlində olan markerin formasının dəyişilməsi üçün istifadə*/
+ul.a {
+  list-style-type: circle;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+ul.c {
+  list-style-type: upper-roman;
+}
+
+ul.d {
+  list-style-type: lower-alpha;
+  text-align: justify;
+}
+
+ul.f {
+  list-style-position: outside;
+}
+
+ul.g {
+  list-style-position: inside;
+}
+
+/*list-stlye-image*/
+
+ul.k {
+  list-style-image: url("/img/small.gif");
+  margin-left: 60px;
+}
+
+/*
+(ne ise mende alinmadi)
+      li::before {
+        content: "";
+        background-image: url(./bg.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 25px;
+        display: block;
+      }
+
+
+*/
+
+/* Padding- bottom*/
+
+p.ex11 {
+  border: 1px solid red;
+  padding-bottom: 25px;
+}
+
+p.ex12 {
+  border: 1px solid rgb(74, 23, 168);
+  padding-bottom: 10%;
+}
+
+/* Padding- top*/
+
+p.ex13 {
+  border: 1px solid red;
+  padding-top: 25px;
+}
+
+p.ex14 {
+  border: 1px solid rgb(212, 194, 29);
+  padding-top: 10%;
+}
+
+/* Padding- left*/
+
+p.ex15 {
+  border: 1px solid rgb(182, 178, 178);
+  padding-left: 25px;
+}
+
+p.ex16 {
+  border: 1px solid rgb(33, 194, 46);
+  padding-left: 10%;
+}
+
+/* Padding-right*/
+
+p.ex17 {
+  border: 1px solid rgb(33, 194, 46);
+  padding-right: 25px;
+}
+
+p.ex18 {
+  border: 1px solid rgb(33, 194, 46);
+  padding-right: 10%;
+}
+
+/* elementə 4 tərəfdən eyni boşluq vermək mümkündür*/
+
+p.ex19 {
+  padding: 15px;
+  border: 3px solid white;
+}
+
+p.ex20 {
+  padding: 3%;
+  border: 2px solid white;
+}
+
+/*CSS-Cursor*/
+
+.alias {
+  cursor: alias;
+}
+.all-scroll {
+  cursor: all-scroll;
+}
+.auto {
+  cursor: auto;
+}
+.cell {
+  cursor: cell;
+}
+.col-resize {
+  cursor: col-resize;
+}
+.context-menu {
+  cursor: context-menu;
+}
+.copy {
+  cursor: copy;
+}
+.crosshair {
+  cursor: crosshair;
+}
+.default {
+  cursor: default;
+}
+.e-resize {
+  cursor: e-resize;
+}
+.ew-resize {
+  cursor: ew-resize;
+}
+.grab {
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.grabbing {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.help {
+  cursor: help;
+}
+.move {
+  cursor: move;
+}
+.n-resize {
+  cursor: n-resize;
+}
+.ne-resize {
+  cursor: ne-resize;
+}
+.nesw-resize {
+  cursor: nesw-resize;
+}
+.ns-resize {
+  cursor: ns-resize;
+}
+.nw-resize {
+  cursor: nw-resize;
+}
+.nwse-resize {
+  cursor: nwse-resize;
+}
+.no-drop {
+  cursor: no-drop;
+}
+.none {
+  cursor: none;
+}
+.not-allowed {
+  cursor: not-allowed;
+}
+.pointer {
+  cursor: pointer;
+}
+.progress {
+  cursor: progress;
+}
+.row-resize {
+  cursor: row-resize;
+}
+.s-resize {
+  cursor: s-resize;
+}
+.se-resize {
+  cursor: se-resize;
+}
+.sw-resize {
+  cursor: sw-resize;
+}
+.text {
+  cursor: text;
+}
+.url {
+  cursor: url(myBall.cur), auto;
+}
+.w-resize {
+  cursor: w-resize;
+}
+.wait {
+  cursor: wait;
+}
+.zoom-in {
+  cursor: zoom-in;
+}
+.zoom-out {
+  cursor: zoom-out;
+}
+
+/*Outline-width*/
+
+h2 {
+  outline-style: solid;
+  outline-width: thick;
+}
+
+div.a {
+  outline-style: solid;
+  outline-width: thick;
+}
+
+div.b {
+  border: 1px solid red;
+  outline-style: solid;
+  outline-width: thick;
+}
+
+/*Outline-style*/
+
+h3 {
+  outline-style: dotted;
+}
+
+div.c {
+  outline-style: dotted;
+}
+
+div.d {
+  border: 1px solid red;
+  outline-style: dotted;
+}
+
+div.e {
+  border: 1px solid green;
+  outline-style: solid;
+}
+
+div.f {
+  border: 1px solid green;
+  outline-style: dashed;
+}
+
+div.k {
+  border: 1px solid green;
+  outline-style: double;
+}
+
+div.l {
+  border: 1px solid green;
+  outline-style: dotted;
+}
+
+div.m {
+  border: 1px solid green;
+  outline-style: groove;
+}
+
+div.n {
+  border: 1px solid green;
+  outline-style: ridge;
+}
+
+div.j {
+  border: 1px solid green;
+  outline-style: inset;
+}
+
+div.h {
+  border: 1px solid green;
+  outline-style: outset;
+}
+
+div.g {
+  border: 1px solid green;
+  outline-style: hidden;
+}
+
+h5 {
+  outline-style: solid;
+  outline-color: rgb(22, 150, 167);
+  outline-width: thin;
+}
+
+/* outline-color*/
+
+div.s {
+  outline-style: dashed;
+  outline-color: rgb(27, 168, 69);
+  outline-width: thick;
+}
+
+div.x {
+  border: 1px solid black;
+  outline-style: solid;
+  outline-color: rgb(233, 77, 25);
+}
+/*outline bir setr ile qeyd etmek mumkun*/
+
+div.v {
+  border: 1px solid red;
+  outline: 2px dashed blue;
+  outline: thick dotted;
+}
